@@ -13,6 +13,13 @@ mvn clean compile install
 docker-compose up --build
 ```
 
+or
+
+```
+docker build
+docker-compose up
+```
+
 ### Swagger
 
 http://localhost/api/swagger-ui/index.html
